@@ -1,0 +1,205 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #fafafa;
+}
+
+/*  一顶部导航 */
+.top {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+}
+
+.top ul {
+    overflow: hidden;
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.top li {
+    float: left;
+    width: calc(135rem / 64);
+    height: calc(57rem / 46);
+    /* border: calc(1rem / 64) solid #76ac01; */
+    font-size: calc(26rem / 64);
+    padding-top: calc(23rem / 64);
+}
+
+.top li:nth-child(4) span {
+    display: inline-block;
+    width: calc(60rem / 64);
+    height: calc(52rem / 64);
+    border-bottom: calc(3rem / 64) solid #76ac01;
+}
+
+.top .iconfont {
+    font-size: calc(40rem / 64);
+}
+
+/* 二星级评价 */
+.stare {
+    position: relative;
+    width: 100%;
+}
+
+.stare img {
+    width: 100%;
+    height: calc(240rem / 64);
+}
+
+.stare-word {
+    position: absolute;
+    height: calc(166rem / 64);
+    width: 100%;
+    /* border: calc(3rem / 64) solid #76ac01; */
+    overflow: hidden;
+    text-align: center;
+    top: calc(75rem / 64);
+    left: 0;
+}
+
+.stare-word span {
+    float: left;
+}
+
+.stare-word span:nth-child(1) {
+    display: inline-block;
+    width: calc(100rem / 64);
+    height: calc(100rem / 64);
+    border-radius: 50%;
+    background-color: #eef9d5;
+    color: #76ac01;
+    padding-top: calc(23rem / 64);
+    padding-left: calc(0rem / 64);
+    margin-top: calc(34rem / 64);
+    margin-left: calc(100rem / 64);
+}
+
+.stare-word span:nth-child(2) {
+    margin-top: calc(70rem / 64);
+    margin-left: calc(62rem / 64);
+    font-size: calc(26rem / 64);
+}
+
+.stare-word span:nth-child(3) {
+    margin-top: calc(70rem / 64);
+    margin-left: calc(18rem / 64);
+}
+
+.stare-word img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+}
+
+/* .stare-word img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+}
+
+.stare-word span:nth-child(1) {
+    display: inline-block;
+    width: calc(100rem / 64);
+    height: calc(100rem / 64);
+
+    border-radius: 50%;
+    background-color: #eef9d5;
+    color: #76ac01;
+    padding-top: calc(23rem / 64);
+    padding-left: calc(0rem / 64);
+    text-align: center;
+    font-size: calc(25rem / 64);
+}
+
+.stare-word span:nth-child(2) {
+    display: inline-block;
+    font-size: calc(25rem / 64);
+    margin-left: calc(50rem / 64);
+
+} */
+
+.allword {
+    margin-top: calc(20rem / 64);
+    width: 100%;
+    height: calc(166rem / 64);
+    background-color: #fff;
+}
+
+.allword ul {
+    overflow: hidden;
+    padding-top: calc(20rem / 64);
+    padding-left: calc(20rem / 64);
+    padding-right: calc(20rem / 64);
+}
+
+.allword li {
+    float: left;
+    width: calc(170rem / 64);
+    height: calc(50rem / 64);
+    border: calc(1rem / 64) solid #76ac01;
+    border-radius: calc(10rem / 64);
+    margin-right: calc(30rem / 64);
+    margin-bottom: calc(20rem / 64);
+    text-align: center;
+    line-height: calc(50rem / 64);
+}
+
+.word-1 {
+    width: 100%;
+    height: calc(60rem / 64);
+    margin-top: calc(3rem / 64);
+    line-height: calc(86rem / 64);
+    background-color: #fff;
+
+}
+
+.word-1 span:nth-child(1) img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+    margin-left: calc(20rem / 64);
+}
+
+.word-1 span:nth-child(n+3):nth-child(-n+7) img {
+    width: calc(20rem / 64);
+    height: calc(20rem / 64);
+}
+
+.word-1 span:nth-last-child(1) {
+    margin-left: calc(150rem / 64);
+    color: #dbd0cc;
+}
+
+.word-2 {
+    width: 100%;
+    height: calc(60rem / 64);
+    /* border: calc(1rem / 64) solid #000; */
+    padding-top: calc(20rem / 64);
+    padding-left: calc(20rem / 64);
+    padding-right: calc(20rem / 64);
+    font-size: calc(20rem / 64);
+    background-color: #fff;
+}
+
+.word-3 {
+    width: 100%;
+    height: calc(84rem / 64);
+    /* border: calc(1rem / 64) solid #000; */
+    /* padding-top: calc(20rem / 64); */
+    padding-left: calc(60rem / 64);
+    padding-right: calc(42rem / 64);
+    font-size: calc(20rem / 64);
+    background-color: #fff;
+    margin-bottom: calc(1rem / 64);
+}
+
+.word-3 span {
+    color: #76ac01;
+}

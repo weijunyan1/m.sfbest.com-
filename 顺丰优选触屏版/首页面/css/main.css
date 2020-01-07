@@ -1,0 +1,1022 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.top-box {
+    width: 100%;
+    height: 2.3rem;
+    /* border: calc(1rem / 64) solid red; */
+    box-sizing: border-box;
+    position: relative;
+    position: fixed;
+    background-color: #fff;
+    z-index: 30;
+}
+
+.search-box {
+    width: 100%;
+    height: 1.344rem;
+    /* border: calc(1rem / 64) solid red; */
+    box-sizing: border-box;
+}
+
+.search-box .left {
+    float: left;
+    font-size: calc(28rem / 64);
+    padding-left: calc(16rem / 64);
+    padding-top: calc(26rem / 64);
+}
+
+.search-box .left span {
+    display: inline-block;
+    color: #000;
+}
+
+.search-box .right {
+    float: left;
+    font-size: calc(21rem / 64);
+    width: calc(420rem / 64);
+    height: calc(55rem / 64);
+    /* border: calc(1rem / 64) solid red; */
+    box-sizing: border-box;
+    margin-top: calc(13rem / 64);
+    margin-left: calc(10rem / 64);
+    background-color: #f7f7f7;
+    padding-top: calc(15rem / 64);
+    padding-left: calc(128rem / 64);
+}
+
+.search-box .right span {
+    color: #7c7c7c;
+}
+
+
+
+.title-box {
+    position: relative;
+    width: 100%;
+    height: 0.9rem;
+    /* border: calc(1rem / 64) solid red; */
+    box-sizing: border-box;
+}
+
+.title-box ul {
+    overflow: hidden;
+    width: 100%;
+    height: 0.9rem;
+    /* border: calc(1rem / 64) solid green; */
+    box-sizing: border-box;
+}
+
+.title-box li {
+    width: calc(90rem / 64);
+    height: 0.9rem;
+    box-sizing: border-box;
+    float: left;
+    font-size: calc(22rem / 64);
+    margin-right: calc(36rem / 64);
+    color: #38a34e;
+    overflow: hidden;
+    border-bottom: calc(3rem / 64) solid green;
+}
+
+.title-box span {
+    position: absolute;
+    top: calc(10rem / 64);
+    right: calc(10rem / 64);
+    z-index: 2;
+    color: #bfbfbf;
+}
+
+
+/* 三优选服务标签 */
+.service {
+    margin-top: calc(20rem / 64);
+    margin-left: calc(28rem / 64);
+    margin-right: calc(28rem / 64);
+}
+
+.service span {
+    margin-right: calc(17rem / 64);
+}
+
+.service a {
+    color: #000;
+}
+
+.service img {
+    /* margin-top: calc(200rem / 64); */
+    width: calc(28rem / 64);
+    height: calc(28rem / 64);
+    margin-right: calc(14rem / 64);
+}
+
+/*  四优选商品标签 */
+.goods-p {
+    margin-top: calc(40rem / 64);
+    margin-left: calc(28rem / 64);
+    margin-right: calc(28rem / 64);
+}
+
+.goods-o {
+    margin-right: calc(45rem / 64);
+}
+
+.goods-p img {
+    width: calc(75rem / 64);
+    height: calc(70rem / 64);
+}
+
+.goods-w {
+    margin-top: calc(20rem / 64);
+    margin-left: calc(28rem / 64);
+    margin-right: calc(28rem / 64);
+}
+
+.goods-w a {
+    color: #000;
+}
+
+.goods-t {
+    margin-right: calc(37rem / 64);
+}
+
+
+
+
+
+/*  五优选快报 */
+.news {
+    margin-top: calc(64rem / 64);
+    margin-left: calc(28rem / 64);
+    margin-right: calc(28rem / 64);
+}
+
+.news span {
+    display: inline-block;
+    font-size: calc(27rem / 64);
+    color: #747474;
+    font-weight: 700;
+}
+
+.news div {
+    display: inline-block;
+    margin-left: calc(20rem / 64);
+    width: calc(260rem / 64);
+    height: calc(28rem / 64);
+    border-left: calc(1rem / 64) solid #000;
+    padding-left: calc(10rem / 64);
+}
+
+/* 六精选爆款 */
+.choice {
+    margin-left: calc(28rem / 64);
+    margin-right: calc(28rem / 64);
+}
+
+.choice .title {
+    width: 100%;
+    height: calc(106rem / 64);
+    text-align: center;
+    /* line-height: calc(20rem / 64); */
+    font-size: calc(25rem / 64);
+    /* border: calc(1rem / 64) solid green; */
+    box-sizing: border-box;
+    padding-top: calc(50rem / 64);
+}
+
+.choice img {
+    width: calc(167rem / 64);
+    height: calc(160rem / 64);
+}
+
+.choice ul {
+    overflow: hidden;
+}
+
+.choice li {
+    float: left;
+    /* border: calc(1rem / 64) solid red; */
+}
+
+.choice .ch-o {
+    margin-right: calc(38rem / 64);
+}
+
+.choice li:nth-child(-n+3) {
+    margin-bottom: calc(20rem / 64);
+}
+
+.choice .introduce {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    word-wrap: break-all;
+    text-overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.choice .price {
+    text-align: center;
+    color: #ffb7e7;
+}
+
+/* 七节日商品  */
+.holiday {
+    margin-top: calc(40rem / 64);
+    background-color: #f5f6f8;
+    width: 100%;
+    height: calc(460rem / 64);
+}
+
+.holiday .left {
+    float: left;
+    width: calc(300rem / 64);
+    height: calc(440rem / 64);
+    margin-right: calc(26rem / 64);
+    margin-left: calc(10rem / 64);
+}
+
+.holiday .left img {
+    width: calc(300rem / 64);
+    height: calc(440rem / 64);
+}
+
+
+.holiday .right {
+    float: left;
+    width: calc(300rem / 64);
+    height: calc(220rem / 64);
+}
+
+.holiday .right img {
+    width: calc(300rem / 64);
+    height: calc(220rem / 64);
+}
+
+/*  八品牌优选 */
+.brand {
+    position: relative;
+}
+
+.brand-title {
+    width: 100%;
+    height: calc(105rem / 64);
+    padding-top: calc(40rem / 64);
+
+}
+
+.brand-title span {
+    display: inline-block;
+    font-size: calc(28rem / 64);
+    color: #000;
+    margin-right: calc(20rem / 64);
+    margin-left: calc(220rem / 64);
+}
+
+.brand-ad img {
+
+    width: 10rem;
+    height: 3.9734rem;
+}
+
+.brand-ad-2 img {
+    position: absolute;
+    width: calc(110rem / 64);
+    height: calc(110rem / 64);
+    top: calc(330rem / 64);
+    left: calc(35rem / 64);
+}
+
+.brand-ad-2-r h4 {
+    font-size: calc(28rem / 64);
+    margin-left: calc(160rem / 64);
+    margin-top: calc(12rem / 64);
+    font-weight: 400;
+}
+
+.brand-ad-2-r span {
+    display: block;
+    margin-left: calc(160rem / 64);
+    margin-top: calc(12rem / 64);
+    color: #949494;
+}
+
+/*  九肉 */
+.meet {
+    /* width: 100%; */
+    overflow-x: auto;
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.meet ul {
+    width: 180%;
+    overflow: hidden;
+}
+
+.meet li {
+    float: left;
+}
+
+.meet li:nth-child(-n+5) {
+    margin-right: calc(15rem / 64);
+}
+
+.meet li img {
+    width: calc(167rem / 64);
+    height: calc(160rem / 64);
+}
+
+.meet li .in-1 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.meet li .in-2 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.meet li .pr {
+    margin-top: calc(25rem / 64);
+    padding-left: calc(30rem / 64);
+    color: #ff8200;
+}
+
+/* 十广告 */
+.ad3 {
+    margin-top: calc(40rem / 64);
+    position: relative;
+}
+
+.ad3 img {
+    width: 10rem;
+    height: 3.9734rem;
+}
+
+.ad4 img {
+    position: absolute;
+    width: calc(110rem / 64);
+    height: calc(110rem / 64);
+    top: calc(228rem / 64);
+    left: calc(35rem / 64);
+}
+
+.ad3 h4 {
+    font-size: calc(28rem / 64);
+    margin-left: calc(160rem / 64);
+    margin-top: calc(12rem / 64);
+    font-weight: 400;
+}
+
+.ad3 span {
+    display: block;
+    margin-left: calc(160rem / 64);
+    margin-top: calc(12rem / 64);
+    color: #949494;
+}
+
+
+/* 十一海鲜  */
+.seafood {
+    /* width: 100%; */
+    overflow-x: auto;
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.seafood ul {
+    width: 180%;
+    overflow: hidden;
+}
+
+.seafood li {
+    float: left;
+}
+
+.seafood li:nth-child(-n+5) {
+    margin-right: calc(15rem / 64);
+}
+
+.seafood li img {
+    width: calc(167rem / 64);
+    height: calc(160rem / 64);
+}
+
+.seafood li .in-1 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.seafood li .in-2 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.seafood li .pr {
+    margin-top: calc(25rem / 64);
+    padding-left: calc(30rem / 64);
+    color: #ff8200;
+}
+
+/* 十三广告  */
+.ad5 {
+    margin-top: calc(40rem / 64);
+    position: relative;
+}
+
+.ad5 img {
+    width: 10rem;
+    height: 3.9734rem;
+}
+
+.ad6 img {
+    position: absolute;
+    width: calc(110rem / 64);
+    height: calc(110rem / 64);
+    top: calc(228rem / 64);
+    left: calc(35rem / 64);
+}
+
+.ad5 h4 {
+    font-size: calc(28rem / 64);
+    margin-left: calc(160rem / 64);
+    margin-top: calc(12rem / 64);
+    font-weight: 400;
+}
+
+.ad5 span {
+    display: block;
+    margin-left: calc(160rem / 64);
+    margin-top: calc(12rem / 64);
+    color: #949494;
+}
+
+
+/*  十四面食 */
+.noodles {
+    /* width: 100%; */
+    overflow-x: auto;
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.noodles ul {
+    width: 180%;
+    overflow: hidden;
+}
+
+.noodles li {
+    float: left;
+}
+
+.noodles li:nth-child(-n+5) {
+    margin-right: calc(15rem / 64);
+}
+
+.noodles li img {
+    width: calc(167rem / 64);
+    height: calc(160rem / 64);
+}
+
+.noodles li .in-1 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.noodles li .in-2 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.noodles li .pr {
+    margin-top: calc(25rem / 64);
+    padding-left: calc(30rem / 64);
+    color: #ff8200;
+}
+
+
+
+/* 十五优选国际 */
+.international-title {
+    /* width: 100%; */
+    height: calc(105rem / 64);
+    padding-top: calc(40rem / 64);
+    text-align: center;
+
+}
+
+.international-title a {
+    color: #000;
+}
+
+.ad7 img {
+    width: 10rem;
+    height: 3.9734rem;
+}
+
+.Nutrition {
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.Nutrition-title {
+    font-size: calc(24rem / 64);
+    font-weight: 700;
+    margin-bottom: calc(10rem / 64);
+}
+
+.Nutrition-in {
+    color: #979797;
+}
+
+
+.Nutrition-go {
+    /* width: 100%; */
+    overflow-x: auto;
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.Nutrition-go ul {
+    width: 180%;
+    overflow: hidden;
+}
+
+.Nutrition-go li {
+    float: left;
+}
+
+.Nutrition-go li:nth-child(-n+5) {
+    margin-right: calc(15rem / 64);
+}
+
+.Nutrition-go li img {
+    width: calc(167rem / 64);
+    height: calc(160rem / 64);
+}
+
+.Nutrition-go li .in-1 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.Nutrition-go li .in-2 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.Nutrition-go li .pr {
+    margin-top: calc(25rem / 64);
+    padding-left: calc(30rem / 64);
+    color: #ff8200;
+}
+
+/* 十七优选母婴用品  */
+.baby {
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.baby-ti {
+    font-size: calc(24rem / 64);
+    font-weight: 700;
+    margin-bottom: calc(10rem / 64);
+}
+
+.baby-in {
+    color: #979797;
+}
+
+.baby-go {
+    /* width: 100%; */
+    overflow-x: auto;
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.baby-go ul {
+    width: 180%;
+    overflow: hidden;
+}
+
+.baby-go li {
+    float: left;
+}
+
+.baby-go li:nth-child(-n+5) {
+    margin-right: calc(15rem / 64);
+}
+
+.baby-go li img {
+    width: calc(167rem / 64);
+    height: calc(160rem / 64);
+}
+
+.baby-go li .in-1 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.baby-go li .in-2 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.baby-go li .pr {
+    margin-top: calc(25rem / 64);
+    padding-left: calc(30rem / 64);
+    color: #ff8200;
+}
+
+/* 十八优选美妆呵护  */
+.makeup {
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.makeup-ti {
+    font-size: calc(24rem / 64);
+    font-weight: 700;
+    margin-bottom: calc(10rem / 64);
+}
+
+.makeup-in {
+    color: #979797;
+}
+
+.makeup-go {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.makeup-go ul {
+    width: 180%;
+    overflow: hidden;
+}
+
+.makeup-go li {
+    float: left;
+}
+
+.makeup-go li:nth-child(-n+5) {
+    margin-right: calc(15rem / 64);
+}
+
+.makeup-go li img {
+    width: calc(167rem / 64);
+    height: calc(160rem / 64);
+}
+
+.makeup-go li .in-1 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.makeup-go li .in-2 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.makeup-go li .pr {
+    margin-top: calc(25rem / 64);
+    padding-left: calc(30rem / 64);
+    color: #ff8200;
+}
+
+
+/* 间隔 */
+.zero {
+    width: 100%;
+    height: calc(30rem / 64);
+    background-color: #f8f8f8;
+}
+
+.zero2 {
+    width: 100%;
+    height: calc(30rem / 64);
+    background-color: #fff;
+}
+
+/* 十九优选家居用品 */
+.family {
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.family-ti {
+    font-size: calc(24rem / 64);
+    font-weight: 700;
+    margin-bottom: calc(10rem / 64);
+}
+
+.family-in {
+    color: #979797;
+}
+
+.family-go {
+    /* width: 100%; */
+    overflow-x: auto;
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.family-go ul {
+    width: 180%;
+    overflow: hidden;
+}
+
+.family-go li {
+    float: left;
+}
+
+.family-go li:nth-child(-n+5) {
+    margin-right: calc(15rem / 64);
+}
+
+.family-go li img {
+    width: calc(167rem / 64);
+    height: calc(160rem / 64);
+}
+
+.family-go li .in-1 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.family-go li .in-2 {
+    color: #000;
+    overflow: hidden;
+    width: calc(150rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.family-go li .pr {
+    margin-top: calc(25rem / 64);
+    padding-left: calc(30rem / 64);
+    color: #ff8200;
+}
+
+
+/*  二十营养师推荐 */
+.dietitian {
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.dietitian-ti {
+    font-size: calc(24rem / 64);
+    font-weight: 700;
+    margin-bottom: calc(10rem / 64);
+}
+
+.dietitian-in {
+    color: #979797;
+}
+
+.dietitian-go {
+    /* width: 100%; */
+    overflow-x: auto;
+    margin-top: calc(40rem / 64);
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.dietitian-go ul {
+    width: 180%;
+    overflow: hidden;
+}
+
+.dietitian-go li {
+    float: left;
+}
+
+.dietitian-go li:nth-child(-n+5) {
+    margin-right: calc(15rem / 64);
+}
+
+.dietitian-go li img {
+    width: calc(248rem / 64);
+    height: calc(372rem / 64);
+}
+
+.dietitian-go li .in-1 {
+    color: #000;
+    overflow: hidden;
+    width: calc(248rem / 64);
+    height: calc(48rem / 64);
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin-top: calc(20rem / 64);
+
+}
+
+.dietitian-go li .in-2 {
+    color: #000;
+    overflow: hidden;
+    width: calc(248rem / 64);
+    height: calc(24rem / 64);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin-top: calc(10rem / 64);
+    color: #777777;
+}
+
+.dietitian-go li .pr {
+    margin-top: calc(25rem / 64);
+    padding-left: calc(30rem / 64);
+    color: #ff8200;
+}
+
+
+/*  二十一优选厨房 */
+.footer{
+    width: 100%;
+    height: calc(100rem / 64);
+    padding-top: calc(20rem / 64);
+}
+
+.footer ul{
+    overflow: hidden;
+}
+
+.footer li{
+    border-radius: calc(30rem / 64);
+    float: left;
+    margin-left: calc(24rem / 64);
+    width: calc(130rem / 64);
+    text-align: center;
+    line-height: calc(46rem / 64);
+    height: calc(46rem / 64);
+    /* border: calc(1rem / 64) solid #000; */
+    font-size: 700;
+   
+}
+
+.footer li:nth-child(1){
+    color: #fff;
+    background-color: #0f9029;
+}
+
+.footer-1 ul{
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+overflow: hidden;
+}
+
+.footer-1 li{
+    float: left;
+}
+
+.footer-1 li img{
+    width: calc(290rem / 64);
+    height: calc(330rem / 64);
+}
+
+.footer-1 li .in-1{
+    width: calc(100rem / 64);
+    height: calc(30rem / 64);
+    background-color: #f5724b;
+    font-size: calc(20rem / 64);
+    color: #fff;
+    line-height: calc(30rem / 64);
+    text-align: center;
+}
+
+.footer-1 li .in-3{
+    color: #f5724b;
+    margin-top: calc(36rem / 64);
+    margin-bottom: calc(10rem / 64);
+}
+
+.footer-1 .pb{
+    margin-right: calc(20rem / 64);
+}
+
+.quickly{
+    padding-top: calc(32rem / 64);
+    width: 100%;
+    height: calc(150rem / 64);
+    text-align: center;
+    background-color: #f2f2f2;
+}
+body{
+    position: relative;
+}
+.tt{
+    position: absolute;
+    width: 100%;
+    height: calc(80rem / 64);
+    margin-top: calc(20rem / 64);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: #fff;
+}
+.tt ul{
+    overflow: hidden;
+}
+
+.tt li{
+    float: left;
+    width: calc(125rem / 64);
+    height: calc(66rem / 64);
+    text-align: center;
+}
+
+.tt li img{
+    width: calc(45rem / 64);
+    height: calc(45rem / 64);
+}

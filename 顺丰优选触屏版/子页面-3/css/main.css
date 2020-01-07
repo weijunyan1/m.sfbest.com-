@@ -1,0 +1,506 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.top ul {
+    overflow: hidden;
+    margin-left: calc(20rem / 64);
+    margin-right: calc(20rem / 64);
+}
+
+.top li {
+    float: left;
+    width: calc(135rem / 64);
+    height: calc(57rem / 46);
+    /* border: calc(1rem / 64) solid #76ac01; */
+    font-size: calc(26rem / 64);
+    padding-top: calc(23rem / 64);
+}
+
+.top li:nth-child(2) span {
+    display: inline-block;
+    width: calc(60rem / 64);
+    height: calc(52rem / 64);
+    border-bottom: calc(3rem / 64) solid #76ac01;
+}
+
+
+
+.top .iconfont {
+    font-size: calc(40rem / 64);
+}
+
+/*  二滑动图  */
+.goods {
+    width: 100%;
+    overflow-x: auto;
+
+}
+
+.goods ul {
+    width: 740%;
+    overflow: hidden;
+}
+
+.goods li {
+    float: left;
+    position: relative;
+}
+
+.goods li img {
+    width: calc(580rem / 64);
+    height: calc(640rem / 64);
+}
+
+.goods div {
+    position: absolute;
+    width: calc(70rem / 64);
+    height: calc(40rem / 64);
+    border: calc(2rem / 64) solid #000;
+    bottom: calc(32rem / 64);
+    right: calc(26rem / 64);
+    text-align: center;
+    line-height: calc(40rem / 64);
+}
+
+/* 三商品信息 */
+.information {
+    overflow: hidden;
+    width: 100%;
+    padding-top: calc(20rem / 64);
+    padding-left: calc(20rem / 64);
+    padding-right: calc(20rem / 64);
+    background-color: #fff;
+}
+
+.information .left {
+    float: left;
+    width: calc(492rem / 64);
+    height: calc(164rem / 64);
+    border-right: calc(2rem / 64) solid #000;
+}
+
+.information .up span:nth-child(1) {
+    display: inline-block;
+    font-weight: 700;
+    color: #dd0000;
+    font-size: calc(40rem / 64);
+}
+
+.information .up span:nth-child(2) {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.information .up span:nth-child(3) {
+    display: inline-block;
+    font-size: calc(22rem / 64);
+    color: #666;
+}
+
+.information .left .down span:nth-child(1) {
+    display: inline-block;
+    width: calc(50rem / 64);
+    height: calc(30rem / 64);
+    border: calc(2rem / 64) solid #000;
+    position: relative;
+    top: calc(-35rem /64);
+}
+
+.information .left .down span:nth-child(2) {
+    display: inline-block;
+    width: calc(421rem / 64);
+    height: calc(120rem / 64);
+    /* border: calc(2rem / 64) solid #000; */
+    font-size: calc(26rem / 64);
+}
+
+
+.information .left .down img {
+    width: calc(90rem / 64);
+    height: calc(26rem / 64);
+}
+
+.information .right {
+    float: left;
+}
+
+.information .right span:nth-child(1) {
+    display: block;
+    font-size: calc(26rem / 64);
+    color: #76ac01;
+    margin-left: calc(20rem / 64);
+    margin-top: calc(20rem / 64);
+}
+
+.information .right span:nth-child(3) {
+    display: block;
+    font-size: calc(23rem / 64);
+    text-align: center;
+    line-height: calc(30rem / 64);
+    border: calc(1rem / 64);
+    width: calc(60rem / 64);
+    height: calc(30rem / 64);
+    border: calc(1rem / 64) solid #000;
+    margin-top: calc(24rem / 64);
+    margin-left: calc(30rem / 64);
+}
+
+.information .right span:nth-child(2) {
+    display: block;
+    font-size: calc(20rem / 64);
+    color: #76ac01;
+    margin-left: calc(20rem / 64);
+    margin-top: calc(10rem / 64);
+}
+
+/* 四促销 */
+.Promotion {
+    margin-top: calc(20rem / 64);
+    height: calc(80rem / 64);
+    background-color: #fff;
+}
+
+.Promotion span:nth-child(1) {
+    display: inline-block;
+    margin-left: calc(30rem / 64);
+    font-size: calc(25rem / 64);
+    font-weight: 700;
+    margin-right: calc(15rem / 64);
+    margin-top: calc(20rem / 64);
+    color: #666666;
+}
+
+.Promotion span:nth-child(2) {
+    display: inline-block;
+    width: calc(100rem / 64);
+    height: calc(25rem / 64);
+    border: calc(1rem / 64) solid #8ec319;
+    text-align: center;
+    margin-right: calc(15rem / 64);
+    color: #8ec319;
+}
+
+.Promotion span:nth-child(3) {
+    font-size: calc(25rem / 64);
+}
+
+/* 五选项 */
+.option {
+    width: 100%;
+    height: calc(200rem / 64);
+    background-color: #fff;
+    margin-top: calc(20rem / 64);
+    padding-top: calc(20rem / 64);
+    padding-left: calc(30rem / 64);
+    border: calc(1rem / 64) solid #8ec319;
+}
+
+.option .up {
+    font-size: calc(25rem / 64);
+    text-align: center;
+    line-height: calc(70rem / 64);
+    border-radius: calc(10rem / 64);
+    width: calc(590rem / 64);
+    height: calc(70rem / 64);
+    border: calc(1rem / 64) solid #8ec319;
+    margin-bottom: calc(20rem / 64);
+}
+
+.option .down {
+    font-size: calc(25rem / 64);
+    text-align: center;
+    line-height: calc(70rem / 64);
+    border-radius: calc(10rem / 64);
+    width: calc(590rem / 64);
+    height: calc(70rem / 64);
+    border: calc(1rem / 64) solid #000;
+}
+
+
+.hp {
+    width: 100%;
+    height: calc(20rem / 64);
+    background-color: #fafafa;
+}
+
+/* 六基本信息 */
+.basic {
+    width: 100%;
+    height: calc(86rem / 64);
+    border-bottom: calc(1rem / 64) solid #959595;
+    line-height: calc(86rem / 64);
+}
+
+.basic span:nth-child(1) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.basic img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+}
+
+.basic span:nth-child(2) {
+    margin-left: calc(10rem / 64);
+    display: inline-block;
+}
+
+.basic span:nth-child(3) {
+    margin-left: calc(10rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.basic span:nth-child(4) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.basic span:nth-child(5) {
+    margin-left: calc(10rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.basic-1 {
+    width: 100%;
+    height: calc(86rem / 64);
+    border-bottom: calc(1rem / 64) solid #959595;
+    line-height: calc(86rem / 64);
+}
+
+.basic-1 span:nth-child(1) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.basic-1 img {
+    width: calc(50rem / 64);
+    height: calc(50rem / 64);
+}
+
+.basic-1 span:nth-child(2) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+
+}
+
+.basic-1 span:nth-child(4) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+
+}
+
+.basic-1 span:nth-child(3) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.basic-2 {
+    width: 100%;
+    height: calc(86rem / 64);
+    border-bottom: calc(1rem / 64) solid #959595;
+    line-height: calc(86rem / 64);
+}
+
+.basic-2 span:nth-child(1) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.basic-2 span:nth-child(2) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.basic-3 {
+    width: 100%;
+    height: calc(86rem / 64);
+    border-bottom: calc(1rem / 64) solid #959595;
+    line-height: calc(86rem / 64);
+}
+
+.basic-3 span:nth-child(1) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.basic-3 span:nth-child(2) {
+    margin-left: calc(20rem / 64);
+    display: inline-block;
+    font-weight: 700;
+}
+
+
+.basic-3 span:nth-child(3) {
+    margin-left: calc(224rem / 64);
+    display: inline-block;
+}
+
+.basic-4 {
+    width: 100%;
+    height: calc(86rem / 64);
+    border-bottom: calc(1rem / 64) solid #959595;
+    line-height: calc(86rem / 64);
+}
+
+.basic-4 span:nth-child(1) img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+    margin-left: calc(20rem / 64);
+}
+
+.basic-4 span:nth-child(3) img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+}
+
+.basic-4 span:nth-child(4) img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+}
+
+.basic-4 span:nth-child(5) img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+}
+
+.basic-4 span:nth-child(6) img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+}
+
+.basic-4 span:nth-child(7) img {
+    width: calc(30rem / 64);
+    height: calc(30rem / 64);
+    margin-right: calc(100rem / 64);
+}
+
+.basic-5 {
+    width: 100%;
+    height: calc(86rem / 64);
+    border-bottom: calc(1rem / 64) solid #959595;
+    line-height: calc(86rem / 64);
+    padding-left: calc(20rem / 64);
+}
+
+/* 七同类推荐 */
+.same-title {
+    width: 100%;
+    height: calc(86rem / 64);
+    line-height: calc(86rem / 64);
+    font-size: calc(25rem / 64);
+    padding-left: calc(20rem / 64);
+}
+
+.same {
+    width: 100%;
+    overflow-x: auto;
+
+}
+
+.same ul {
+    width: 220%;
+    overflow: hidden;
+}
+
+.same li {
+    float: left;
+    position: relative;
+}
+
+.same a {
+    color: #000;
+}
+
+.same li img {
+    width: calc(230rem / 64);
+    height: calc(220rem / 64);
+}
+
+.same div {
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    width: calc(216rem / 64);
+    height: calc(40rem / 64);
+    /* border: calc(2rem / 64) solid #000; */
+    bottom: calc(32rem / 64);
+    right: calc(26rem / 64);
+    text-align: center;
+    line-height: calc(40rem / 64);
+}
+
+
+/*图文详情  */
+.wordpicture {
+    width: 100%;
+    height: calc(86rem / 64);
+    line-height: calc(86rem / 64);
+    font-size: calc(25rem / 64);
+    padding-left: calc(20rem / 64);
+}
+body{
+    position: relative;
+}
+.footer {
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    height: calc(86rem / 64);
+    line-height: calc(86rem / 64);
+    font-size: calc(25rem / 64);
+}
+
+.iconfont {
+    font-size: calc(44rem / 64);
+    margin-left: calc(36rem / 64);
+    margin-right: calc(24rem / 64);
+}
+
+.footer span:nth-child(4){
+    display: inline-block;
+    width: calc(144rem / 64);
+    height: calc(80rem / 64);
+    /* border: calc(2rem / 64) solid #000; */
+}
+
+.footer span:nth-child(5){
+    text-align: center;
+    display: inline-block;
+    width: calc(144rem / 64);
+    height: calc(80rem / 64);
+    /* border: calc(2rem / 64) solid #000; */
+    color: #fff;
+    background-color: #8ec319;
+}
