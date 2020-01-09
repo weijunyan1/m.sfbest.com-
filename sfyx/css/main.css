@@ -988,7 +988,7 @@ overflow: hidden;
 .quickly{
     padding-top: calc(32rem / 64);
     width: 100%;
-    height: calc(150rem / 64);
+    height: calc(230rem / 64);
     text-align: center;
     background-color: #f2f2f2;
 }
